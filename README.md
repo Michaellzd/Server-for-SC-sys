@@ -7,3 +7,7 @@ Download the trained model files:https://drive.google.com/drive/folders/1Vgg313j
 1.In the back_end. run:python -m uvicorn app:app --host 0.0.0.0 --reload<br>2.In the frontend. Run:npm start<br>3.In the server.js, Run: npm start<br>
 
 Then you can try this system!
+
+
+The detection website can show the result like this:![Alt text](https://i.imgur.com/V04rmjU.png)
+
