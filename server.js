@@ -31,7 +31,7 @@ app.post('/api/predict', upload.single('file'), async (req, res) => {
     // 更新请求头，以便正确设置 'Content-Type' 和 'boundary'
     const headers = formData.getHeaders();
 
-    const response = await axios.post('http://127.0.0.1:8000/predict', formData, {
+    const response = await axios.post('http://127.0.0.1:8080/predict', formData, {
       headers,
     });
 
@@ -49,7 +49,7 @@ app.put('/chat', async (req, res) => {
     const { text } = req.body;
 
 
-    const response = await axios.put('http://127.0.0.1:8000/chat', { text });
+    const response = await axios.put('http://127.0.0.1:8080/chat', { text });
 
     res.send({ chat: response.data.chat });
   } catch (error) {
