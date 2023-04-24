@@ -1,6 +1,6 @@
 # Skin-Cancer-Detection-System-based-on-deep-learning
 
-This is a Skin-Cancer-Detection-System-based-on-deep-learning and ChatGpt. This is a simple and reliable skin-cancer-detction system.
+This is a Skin-Cancer-Detection-System-based-on-deep-learning and ChatGPT. This is a simple and reliable skin-cancer-detction system.
 
 Backend:FastAPI Nodejs PyTorch
 Frontend:Reactjs
